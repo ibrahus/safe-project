@@ -50,13 +50,6 @@ The app is deployed to [Heroku](https://www.heroku.com/home)
 [API Documentation](https://safe-project0.herokuapp.com/docs)
 
 
-### Testing
-Run test cases
-```bash
-python manage.py test --settings=safeProject.settings_local
-```
-
-
 ### Admin Credentials
 Username: ```admin```
 
@@ -66,3 +59,10 @@ Password: ```admin```
 Username: ```user```
 
 Password: ```Aa1234500```
+
+
+### Testing
+Run test cases
+```bash
+python manage.py test --settings=safeProject.settings_local
+```
